@@ -5,7 +5,7 @@ export default {
   */
 
   head: {
-    title: 'Reasoned AI',
+    title: 'Beluga Intelligence',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

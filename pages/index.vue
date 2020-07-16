@@ -5,36 +5,32 @@
       <div>
         <img src="../assets/images/biglogo.png" class="biglogo">
       </div>
-      <h1> Data Science For Domain Experts </h1>
+      <h1> Make Smart Investing Easy </h1>
 
       <div class="links">
           <a
-            href="https://reasoned.us20.list-manage.com/subscribe/post?u=cf65772f893ac97470fb3ae81&id=ec94e66734"
-            class="button--green">Individual</a>
-          <a
-            href="https://reasoned.us20.list-manage.com/subscribe/post?u=cf65772f893ac97470fb3ae81&id=ec94e66734"
-            class="button--blue">Enterprise</a>
-          <a
-            href="https://docs.google.com/document/d/1d8IH734g_bwnHXLvTe24OXdm97ioIqnUuMTwmAbtUSM/edit?usp=sharing"
-            class="button--yellow">Yellowpaper</a>
+            href="https://belugaintelligence.us10.list-manage.com/subscribe/post?u=a4424afb2e9c8251c32820962&amp;id=86809c37c1"
+            class="button--blue">Demo</a>
       </div>
       <!-- Begin Mailchimp Signup Form -->
       <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+      <style type="text/css">
+        #mc_embed_signup{background:rgba(0, 0, 0, 0); clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+      </style>
       <div id="mc_embed_signup">
-      <form action="https://reasoned.us20.list-manage.com/subscribe/post?u=cf65772f893ac97470fb3ae81&amp;id=ec94e66734"
-            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-            class="validate" target="_blank" novalidate>
+      <form action="https://belugaintelligence.us10.list-manage.com/subscribe/post?u=a4424afb2e9c8251c32820962&amp;id=86809c37c1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           <div id="mc_embed_signup_scroll">
-            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-            <div style="position: absolute; left: -5000px;" aria-hidden="true">
-              <input type="text" name="b_cf65772f893ac97470fb3ae81_ec94e66734" tabindex="-1" value="">
-            </div>
-            <div class="clear">
-              <input type="submit" value="Keep me posted" name="subscribe" id="mc-embedded-subscribe" class="button">
-            </div>
+
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a4424afb2e9c8251c32820962_86809c37c1" tabindex="-1" value=""></div>
+          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
           </div>
       </form>
       </div>
+
       <!--End mc_embed_signup-->
       <div class="cards-d">
         <ul class="cards">
@@ -44,10 +40,8 @@
             </font-awesome-layers>
             <v-card-title primary-title class="card-content">
               <div>
-                <h3 class="headline mb-0">Assisted Data Science</h3>
+                <h3 class="headline mb-0">Artificial Intelligence</h3>
                 <div class="card-text">
-                  <div> GUI to assist you to explore </div>
-                  <div> and invent new knowledge </div>
                   <div> &nbsp; </div>
                 </div>
               </div>
@@ -55,39 +49,21 @@
           </li>
           <li>
             <font-awesome-layers full-width class="fa-6x">
-              <font-awesome-icon icon="search"/>
+              <font-awesome-icon icon="mobile"/>
             </font-awesome-layers>
             <v-card-title primary-title class="card-content">
               <div>
-                <h3 class="headline mb-0">Neural Logic Reasoning</h3>
+                <h3 class="headline mb-0">iPhone/Andriod</h3>
                 <div class="card-text">
-                  <div> Reason through logic </div>
-                  <div> but compute with neural networks </div>
                   <div> &nbsp; </div>
                 </div>
               </div>
             </v-card-title>
           </li>
-          <!--
-          <li>
-            <font-awesome-layers full-width class="fa-6x">
-              <font-awesome-icon icon="user-lock"/>
-            </font-awesome-layers>
-            <v-card-title primary-title class="card-content">
-              <div>
-                <h3 class="headline mb-0">Decentralized Community</h3>
-                <div class="card-text">
-                <div> Claim the ownership of the knowledge</div>
-                <div> then share it with the world </div>
-                </div>
-              </div>
-            </v-card-title>
-          </li>
-          -->
         </ul>
       </div>
       <div class="footer">
-        <p>&copy; 2019 All Rights Reserved | Los Altos CA USA 94024</p>
+        <p>&copy; 2020 All Rights Reserved | Los Altos CA USA 94024</p>
       </div>
     </div>
   </section>

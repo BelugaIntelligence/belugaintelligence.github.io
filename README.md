@@ -1,5 +1,5 @@
 # website
-Website of the Reasoned AI
+Website of the Beluga Intelligence
 =======
 
 ## Build Setup

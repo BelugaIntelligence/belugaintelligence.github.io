@@ -1,7 +1,7 @@
 {
-  "name": "reasonedai_website",
+  "name": "beluga_website",
   "version": "1.0.0",
-  "description": "Website for reasoned ai",
+  "description": "Website for Beluga Intelligence",
   "author": "xumiao",
   "private": true,
   "scripts": {
