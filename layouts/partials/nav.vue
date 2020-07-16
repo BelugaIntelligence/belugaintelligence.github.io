@@ -2,14 +2,12 @@
     <div class="header">
         <nuxt-link to="/" class="logo">
             <img src="@/assets/images/logo.png">
-            &nbsp;&nbsp;&nbsp;&nbsp; Reasoned AI
+            &nbsp;&nbsp;&nbsp;&nbsp; Beluga Intelligence
         </nuxt-link>
         <nav>
             <ul>
                 <li><nuxt-link to="/">Home</nuxt-link></li>
-                <li><a href="https://medium.com/reasoned-ai">Blog</a></li>
-                <li><a href="https://docs.google.com/document/d/1d8IH734g_bwnHXLvTe24OXdm97ioIqnUuMTwmAbtUSM/edit?usp=sharing">Vision</a></li>
-                <li><a href="https://reasoned.us20.list-manage.com/subscribe/post?u=cf65772f893ac97470fb3ae81&id=ec94e66734">Demo</a></li>
+                <li><a href="https://belugaintelligence.us10.list-manage.com/subscribe/post?u=a4424afb2e9c8251c32820962&amp;id=86809c37c1">Demo</a></li>
             </ul>
         </nav>
     </div>
