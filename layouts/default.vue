@@ -49,15 +49,14 @@ html {
   height: 100%;
   opacity: 1;
   margin: 0;
-  background-image: linear-gradient( rgba(85, 40, 40, 0.7), rgba(0, 0, 0, 0.7) ), url("../assets/images/background.jpg");
   background-size: 100% 100%;
+  background-color: #052852;
 }
 
 @media (max-width:800px) {
   .container{
-    background-image: linear-gradient( rgba(85, 40, 40, 0.7), rgba(0, 0, 0, 0.7) ), url("../assets/images/background1.jpg");
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-color: #052852;
   }
 }
 

@@ -3,15 +3,10 @@
   <section >
     <div class="parallax-title">
       <div>
-        <img src="../assets/images/biglogo.png" class="biglogo">
+        <img src="../assets/images/original_logo.png" class="biglogo" alt="biglogo">
       </div>
-      <h1> Make Smart Investing Easy </h1>
+      <h1> Making smart investing easy. </h1>
 
-      <div class="links">
-          <a
-            href="https://belugaintelligence.us10.list-manage.com/subscribe/post?u=a4424afb2e9c8251c32820962&amp;id=86809c37c1"
-            class="button--blue">Demo</a>
-      </div>
       <!-- Begin Mailchimp Signup Form -->
       <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
       <style type="text/css">
@@ -26,44 +21,14 @@
         <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
           <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a4424afb2e9c8251c32820962_86809c37c1" tabindex="-1" value=""></div>
-          <div class="clear"><input type="submit" value="Sign-up Beta" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+          <div class="clear"><input type="submit" value="Get early access" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
           </div>
       </form>
       </div>
 
       <!--End mc_embed_signup-->
-      <div class="cards-d">
-        <ul class="cards">
-          <li>
-            <font-awesome-layers full-width class="fa-6x">
-              <font-awesome-icon icon="vials"/>
-            </font-awesome-layers>
-            <v-card-title primary-title class="card-content">
-              <div>
-                <h3 class="headline mb-0">AI</h3>
-                <div class="card-text">
-                  <div> &nbsp; </div>
-                </div>
-              </div>
-            </v-card-title>
-          </li>
-          <li>
-            <font-awesome-layers full-width class="fa-6x">
-              <font-awesome-icon icon="mobile"/>
-            </font-awesome-layers>
-            <v-card-title primary-title class="card-content">
-              <div>
-                <h3 class="headline mb-0">Mobile</h3>
-                <div class="card-text">
-                  <div> &nbsp; </div>
-                </div>
-              </div>
-            </v-card-title>
-          </li>
-        </ul>
-      </div>
       <div class="footer">
-        <p>&copy; 2020 All Rights Reserved | Los Altos CA USA 94024</p>
+        <p>&copy; 2020 Beluga Intelligence Inc. All Rights Reserved. Los Altos CA</p>
       </div>
     </div>
   </section>
@@ -89,15 +54,17 @@ export default {
     column-gap: 0;
     margin-top: 0;
   }
-
-  .biglogo {
-    display: none;
+  .button {
+    background-color: #E9A027 !important;
   }
-
+  .email{
+    border-width: 3px !important;
+    border-color: #52D0F1 !important;
+  }
   h1 {
-      margin-top: 10em;
+      margin-top: -5em;
       margin-bottom: 2em;
-      font-size: 3em;
+      font-size: 2em;
       color: white;
   }
 
@@ -117,14 +84,6 @@ export default {
     margin-bottom: 1em;
     font-size: 1.5em;
   }
-  .cards li {
-    transition-duration: 0.5s;
-  }
-
-  .cards li:hover {
-    transform: scale(1.1);
-  }
-
   .card-content {
     margin-top: 1em;
     margin-bottom: 10em;
@@ -140,7 +99,7 @@ export default {
 
   .parallax-title {
     position: absolute;
-    padding-left: 1.5em;
+    padding-left: 0;
     top: 15%;
     background: rgba(0, 0, 0, 0);
     color: white;
@@ -150,18 +109,13 @@ export default {
   .button--blue {
     display: inline-block;
     border-radius: 4px;
-    border: 2px solid #04aada;
+    border: 2px solid #52D0F1;
     font-weight: bold;
-    color: #04aada;
+    font-size:1em;
+    color: #52D0F1;
     text-decoration: none;
     padding: 0.6em 2em;
     margin-left: 1em;
-    transition-duration: 0.5s;
-  }
-
-  .button--blue:hover {
-    color: #fff;
-    background-color: #35495e;
   }
 
   .cards-d {
@@ -169,17 +123,32 @@ export default {
     margin-right: 25%;
   }
 
+  .biglogo {
+    display: inline;
+    margin-top: 4em;
+    margin-bottom: 0;
+    width: 600px;
+    height: 600px;
+  }
+
   @media (max-width:800px) {
     h1 {
-      margin-top: 1em;
+      margin-top: -5em;
       margin-bottom: 2em;
       font-size: 1em;
       color: white;
     }
+  .biglogo {
+    display: inline;
+    margin-top: 1em;
+    margin-bottom: 0;
+    width: 240px;
+    height: 240px;
+  }
 
     #mc_embed_signup {
       visibility: hidden;
-      margin-top: 2em;
+      margin-top: 0em;
       margin-bottom: -1.4em;
     }
 
@@ -214,9 +183,7 @@ export default {
       margin-bottom: 1em;
     }
 
-    .biglogo {
-      display: inline;
-    }
+
     .parallax-title {
       top: 15%;
     }
@@ -233,18 +200,19 @@ export default {
       left: 2%;
       right: 2%;
     }
+
   }
 
   @media (max-width:2000px) and (min-width: 800px){
     h1 {
-      margin-top: 5em;
+      margin-top: -5em;
       margin-bottom: 2em;
       font-size: 2em;
       color: white;
     }
 
     #mc_embed_signup {
-      margin-top: 2em;
+      margin-top: 0em;
     }
 
     .cards-d {
