@@ -23,7 +23,6 @@ export default {
         column-gap: 3em;
         margin-left: 25%;
         margin-right: 30%;
-        font-weight: bold;
     }
 
     li a {
@@ -38,7 +37,7 @@ export default {
 
     nav {
         justify-self: right;
-        margin-left: 20em;
+        margin-left: 30em;
     }
     ul {
         list-style-type: none;
@@ -60,4 +59,16 @@ export default {
         text-transform: capitalize;
         background: rgba(0,0,0,0);
     }
+
+    .button--blue {
+    display: inline-block;
+    border-radius: 4px;
+    border: 0px solid #52D0F1;
+    font-weight: bold;
+    font-size:1em;
+    color: #52D0F1;
+    text-decoration: none;
+    padding: 0.6em 2em;
+    margin-left: 1em;
+  }
 </style>
