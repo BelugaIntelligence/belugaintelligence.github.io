@@ -178,14 +178,17 @@ export default {
     }
 
     #mc_embed_signup {
-      margin-top: -2em;
-      margin-bottom: 0;
+      visibility: hidden;
+      margin-top: 2em;
+      margin-bottom: -1.4em;
     }
 
     .links {
       padding-bottom: 5em;
     }
     .cards-d {
+      height: 5em;
+      visibility: hidden;
       margin: 1em 0;
       background-color: black;
     }

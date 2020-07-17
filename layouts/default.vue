@@ -55,7 +55,8 @@ html {
 
 @media (max-width:800px) {
   .container{
-    background-size: 100% 52%;
+    background-image: linear-gradient( rgba(85, 40, 40, 0.7), rgba(0, 0, 0, 0.7) ), url("../assets/images/background1.jpg");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
   }
 }
