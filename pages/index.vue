@@ -26,7 +26,7 @@
         <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
           <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a4424afb2e9c8251c32820962_86809c37c1" tabindex="-1" value=""></div>
-          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+          <div class="clear"><input type="submit" value="Sign-up Beta" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
           </div>
       </form>
       </div>
@@ -40,7 +40,7 @@
             </font-awesome-layers>
             <v-card-title primary-title class="card-content">
               <div>
-                <h3 class="headline mb-0">Artificial Intelligence</h3>
+                <h3 class="headline mb-0">AI</h3>
                 <div class="card-text">
                   <div> &nbsp; </div>
                 </div>
@@ -53,7 +53,7 @@
             </font-awesome-layers>
             <v-card-title primary-title class="card-content">
               <div>
-                <h3 class="headline mb-0">iPhone/Andriod</h3>
+                <h3 class="headline mb-0">Mobile</h3>
                 <div class="card-text">
                   <div> &nbsp; </div>
                 </div>
@@ -140,27 +140,11 @@ export default {
 
   .parallax-title {
     position: absolute;
+    padding-left: 1.5em;
     top: 15%;
     background: rgba(0, 0, 0, 0);
     color: white;
     text-align: center;
-  }
-
-  .button--green {
-    display: inline-block;
-    border-radius: 4px;
-    border: 2px solid #03d6a5;
-    font-weight: bold;
-    color: #03d6a5;
-    text-decoration: none;
-    padding: 0.6em 2em;
-    margin-left: 0;
-    transition-duration: 0.5s;
-  }
-
-  .button--green:hover {
-    color: #fff;
-    background-color: #3b8070;
   }
 
   .button--blue {
@@ -180,23 +164,6 @@ export default {
     background-color: #35495e;
   }
 
-  .button--yellow {
-    display: inline-block;
-    border-radius: 4px;
-    border: 2px solid rgb(210, 170, 0);
-    font-weight: bold;
-    color: rgb(210, 170, 0);
-    text-decoration: none;
-    padding: 0.6em 2em;
-    margin-left: 1em;
-    transition-duration: 0.5s;
-  }
-
-  .button--yellow:hover {
-    color: #fff;
-    background-color: rgb(120, 100, 0);
-  }
-
   .cards-d {
     margin-left: 25%;
     margin-right: 25%;
@@ -206,12 +173,13 @@ export default {
     h1 {
       margin-top: 1em;
       margin-bottom: 2em;
-      font-size: 2em;
+      font-size: 1em;
       color: white;
     }
 
     #mc_embed_signup {
-      margin-top: 0;
+      margin-top: -2em;
+      margin-bottom: 0;
     }
 
     .links {
@@ -223,14 +191,19 @@ export default {
     }
 
     .cards {
-      display:block;
+      display:grid;
+      grid-template-columns: repeat(2, auto);
+      column-gap: 0;
+      margin-top: 0;
+      margin-bottom: 0;
       background-color: black;
     }
 
     .fa-6x {
-      margin-left: -0.6em;
-      margin-top: 0.5em;
+      margin-left: -0.5em;
+      margin-top: 0;
       margin-bottom: 0;
+      transform: scale(0.5);
     }
 
     .card-content {
@@ -244,19 +217,9 @@ export default {
     .parallax-title {
       top: 15%;
     }
-    .button--green {
-      color: #fff;
-      background-color: #3b8070;
-      margin-left: 0;
-    }
     .button--blue {
       color: #fff;
       background-color: #35495e;
-      margin-left: 0;
-    }
-    .button--yellow {
-      color: #fff;
-      background-color:  rgb(120, 100, 0);
       margin-left: 0;
     }
   }
