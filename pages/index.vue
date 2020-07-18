@@ -46,10 +46,13 @@ export default {
     color: rgb(190, 190, 190);
   }
   .button {
-    background-color: #E9A027 !important;
+    background-color: #052852 !important;
+    color: #E9A027 !important;
+    font-size: 1.3em !important;
+    font-weight: bolder !important;
   }
   .email{
-    border-width: 3px !important;
+    border-width: 2px !important;
     border-color: #52D0F1 !important;
   }
   h1 {
@@ -60,10 +63,10 @@ export default {
   }
 
   #mc_embed_signup {
-      font-size: 1em;
-      margin-top: 4em;
-      margin-bottom: 3em;
-    transform: scale(0.8);
+    font-size: 1em;
+    margin-top: 4em;
+    margin-bottom: 3em;
+    transform: scale(0.9);
   }
 
   #mc-embedded-subscribe {
