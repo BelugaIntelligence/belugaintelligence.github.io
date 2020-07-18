@@ -98,7 +98,9 @@ export default {
       font-size: 1em;
       color: white;
     }
-
+  .email{
+    visibility: hidden;
+  }
   .biglogo {
     display: inline;
     margin-top: 4em;
