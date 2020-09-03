@@ -5,7 +5,7 @@
       <div>
         <img src="../assets/images/original_logo.png" class="biglogo" alt="biglogo">
       </div>
-      <h1> Making smart investing easy. </h1>
+      <h1> Making AI easy. </h1>
 
       <!-- Begin Mailchimp Signup Form -->
       <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
